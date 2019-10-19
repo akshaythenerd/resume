@@ -1,0 +1,123 @@
+body{
+    margin: 0px auto;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1000px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.left-bar{
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color:rgb(18, 146, 206);
+    float: left;
+}
+.right-bar{
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+}
+.pic img{
+    
+    max-width: 170px;
+    max-height: 170px;
+    margin: 17%;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.info{
+    max-width: 250px;
+    height: auto;
+    margin: 24px;
+    background-color: rgb(18, 146, 206);;
+}
+
+.pro-skills{
+    max-width: 250px;
+    height: auto;
+    margin: 24px;
+    background-color: rgb(18, 146, 206);;
+
+}
+
+.expe{
+    max-width: 650px;
+    background-color:white;
+    height: auto;
+    margin: 3%;
+
+}
+
+.edu{
+    max-width: 650px;
+    background-color:white;
+    height: auto;
+    margin: 3%;  
+}
+
+.social{
+    max-width: 650px;
+    background-color:white;
+    height: auto;
+    margin: 3%;
+}
+
+.expe em{
+    color: rgb(28, 118, 170);
+    font-size: small
+}
+.table{
+    padding: 15px;
+}
+.table-data{
+    width: 30%;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.panel{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(67, 67, 180);
+}
+
+@media (max-width:700px){
+
+    .container{
+        max-width: 700px;
+        height: auto;
+        background-color:rgb(85, 83, 83);
+        margin: auto;
+    }
+    
+
+    .left-bar-sc{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color:rgb(18, 146, 206);
+        float: left;
+    }
+    .right-bar-sc{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color: white;
+        float: left;
+        
+    }
+    .table-data{
+        width: 100%;
+        float: left;
+    }
+}
