@@ -6,7 +6,7 @@ body{
 .container{
     max-width: 1000px;
     height: auto;
-    background-color: whitesmoke;
+    background-color: powderblue;
     margin: auto;
 }
 .left-bar{
@@ -20,7 +20,7 @@ body{
     max-width: 100%;
     height: auto;
     margin: 5px;
-    background-color: white;
+    background-color: green;
     float: left;
     margin-left: 5px;
 }
@@ -29,22 +29,22 @@ body{
     max-width: 170px;
     max-height: 170px;
     margin: 17%;
-    border-radius: 50%;
+    border-radius: 55%;
     text-align: center;
     
 }
 .info{
     max-width: 250px;
     height: auto;
-    margin: 24px;
-    background-color: rgb(18, 146, 206);;
+    margin: 22px;
+    background-color: green;;
 }
 
 .pro-skills{
     max-width: 250px;
     height: auto;
     margin: 24px;
-    background-color: rgb(18, 146, 206);;
+    background-color: rgb(18, 156, 206);;
 
 }
 
